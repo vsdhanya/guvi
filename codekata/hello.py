@@ -1,3 +1,6 @@
 num=int(input())
 for i in range(num):
-  print("Hello")
+  if i==0:
+    break
+  else:
+    print("Hello")
