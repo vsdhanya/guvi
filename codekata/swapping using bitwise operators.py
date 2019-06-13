@@ -1,5 +1,5 @@
-num1,num2=map(int,input().split())
-num1=num1^num2
-num2=num1^num2
-num1=num1^num2
-print(num1,num2)
+inp1,inp2=map(int,input().split())
+inp1=inp1^inp2
+inp2=inp1^inp2
+inp1=inp1^inp2
+print(inp1,inp2)
