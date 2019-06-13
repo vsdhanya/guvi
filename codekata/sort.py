@@ -1,5 +1,6 @@
-number=int(input())
+given_no=int(input())
 numlis=list(map(int,input().split()))
-numlis.sort()
-for i in numlis:
-  print(i,end=" ")
+if(given_no==len(numlis)):
+  numlis.sort()
+  for i in numlis:
+    print(i,end=" ")
