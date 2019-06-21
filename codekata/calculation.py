@@ -1,3 +1,3 @@
-numb,numb1,numb2=map(int,input().split())
-a=((numb**numb1)%numb2)
+no,no1,n02=map(int,input().split())
+a=((no**no1)%no2)
 print(a)
