@@ -1,2 +1,3 @@
 char=input()
-print(ord(char))
+a=ord(char)
+print(a)
