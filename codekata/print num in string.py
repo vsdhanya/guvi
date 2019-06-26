@@ -1,4 +1,6 @@
 st=input()
+k=[]
 for i in st:
   if i.isnumeric():
-    print(i,end="")
+    k.append(i)
+print("".join(k))
