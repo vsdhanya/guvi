@@ -4,7 +4,5 @@ num=input().split()
 if(len(num)==n):
   for i in num:
     if int(i)<0:
-      sum=sum+int(i)
-    else:
-      break
+      sum=sum+int(i)       
   print(sum)
