@@ -1,0 +1,9 @@
+numb=int(input())
+dec=0
+i=0
+while(numb!=0):
+  rem=numb%10
+  dec=dec+rem*(2**i)
+  numb=numb//10
+  i=i+1
+print(dec)
